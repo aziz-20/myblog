@@ -47,7 +47,7 @@ module.exports = import("next/dist/compiled/@vercel/og/index.node.js");;
 
 /***/ }),
 
-/***/ 6982:
+/***/ 1269:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -97,7 +97,7 @@ function GET() {
 
 const dynamic = 'force-static'
 
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=D%3A%5Cmext.js%5Cmy-app%5Capp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=%2Fmyblog&assetPrefix=%2Fmyblog%2F&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=D%3A%5Cmext.js%5Cmy-app%5Capp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=export&preferredRegion=&middlewareConfig=e30%3D!
 
     
 
@@ -105,7 +105,7 @@ const dynamic = 'force-static'
 
     
 
-    const options = {"definition":{"kind":"APP_ROUTE","page":"/favicon.ico/route","pathname":"/favicon.ico","filename":"favicon","bundlePath":"app/favicon.ico/route"},"resolvedPagePath":"next-metadata-route-loader?page=%2Ffavicon.ico%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!D:\\mext.js\\my-app\\app\\favicon.ico?__next_metadata__","nextConfigOutput":""}
+    const options = {"definition":{"kind":"APP_ROUTE","page":"/favicon.ico/route","pathname":"/favicon.ico","filename":"favicon","bundlePath":"app/favicon.ico/route"},"resolvedPagePath":"next-metadata-route-loader?page=%2Ffavicon.ico%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!D:\\mext.js\\my-app\\app\\favicon.ico?__next_metadata__","nextConfigOutput":"export"}
     const routeModule = new (module_default())({
       ...options,
       userland: favicon_next_metadata_namespaceObject,
@@ -135,7 +135,7 @@ const dynamic = 'force-static'
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,188,572], () => (__webpack_exec__(6982)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,188,572], () => (__webpack_exec__(1269)));
 module.exports = __webpack_exports__;
 
 })();

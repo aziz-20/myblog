@@ -7,8 +7,8 @@ exports.modules = {
 
 // Exports
 module.exports = {
-	"style": {"fontFamily":"'__Inter_ed5f4e', '__Inter_Fallback_ed5f4e'","fontStyle":"normal"},
-	"className": "__className_ed5f4e"
+	"style": {"fontFamily":"'__Inter_0ec1f4', '__Inter_Fallback_0ec1f4'","fontStyle":"normal"},
+	"className": "__className_0ec1f4"
 };
 
 
@@ -30,7 +30,7 @@ Object.defineProperty(exports, "addBasePath", ({
 }));
 const _addpathprefix = __webpack_require__(1751);
 const _normalizetrailingslash = __webpack_require__(6089);
-const basePath = "/myblog" || 0;
+const basePath =  false || "";
 function addBasePath(path, required) {
     if (false) {}
     return (0, _normalizetrailingslash.normalizePathTrailingSlash)((0, _addpathprefix.addPathPrefix)(path, basePath));
@@ -339,7 +339,15 @@ function urlToUrlWithoutFlightMarker(url) {
     const urlWithoutFlightParameters = new URL(url, location.origin);
     urlWithoutFlightParameters.searchParams.delete(_approuterheaders.NEXT_RSC_UNION_QUERY);
     if (true) {
-        if (false) {}
+        if (true) {
+            if (urlWithoutFlightParameters.pathname.endsWith("/index.txt")) {
+                // Slice off `/index.txt` from the end of the pathname
+                urlWithoutFlightParameters.pathname = urlWithoutFlightParameters.pathname.slice(0, -"/index.txt".length);
+            } else {
+                // Slice off `.txt` from the end of the pathname
+                urlWithoutFlightParameters.pathname = urlWithoutFlightParameters.pathname.slice(0, -".txt".length);
+            }
+        }
     }
     return urlWithoutFlightParameters;
 }
@@ -2502,7 +2510,13 @@ async function fetchServerResponse(url, flightRouterState, nextUrl, currentBuild
     try {
         let fetchUrl = new URL(url);
         if (true) {
-            if (false) {}
+            if (true) {
+                if (fetchUrl.pathname.endsWith("/")) {
+                    fetchUrl.pathname += "index.txt";
+                } else {
+                    fetchUrl.pathname += ".txt";
+                }
+            }
         }
         // Add unique cache query to avoid caching conflicts on CDN which don't respect to Vary header
         fetchUrl.searchParams.set(_approuterheaders.NEXT_RSC_UNION_QUERY, uniqueCacheQuery);
@@ -2516,7 +2530,11 @@ async function fetchServerResponse(url, flightRouterState, nextUrl, currentBuild
         const contentType = res.headers.get("content-type") || "";
         let isFlightResponse = contentType === _approuterheaders.RSC_CONTENT_TYPE_HEADER;
         if (true) {
-            if (false) {}
+            if (true) {
+                if (!isFlightResponse) {
+                    isFlightResponse = contentType.startsWith("text/plain");
+                }
+            }
         }
         // If fetch returns something different than flight response handle it like a mpa navigation
         // If the fetch was not 200, we also handle it like a mpa navigation
@@ -4498,7 +4516,7 @@ Object.defineProperty(exports, "getDomainLocale", ({
         return getDomainLocale;
     }
 }));
-const basePath = (/* unused pure expression or super */ null && ("/myblog" || 0));
+const basePath = (/* unused pure expression or super */ null && ( false || ""));
 function getDomainLocale(path, locale, locales, domainLocales) {
     if (false) {} else {
         return false;
@@ -4538,7 +4556,7 @@ const _imageconfig = __webpack_require__(5843);
 const _imageconfigcontext = __webpack_require__(744);
 const _warnonce = __webpack_require__(618);
 const _imageloader = /*#__PURE__*/ _interop_require_default._(__webpack_require__(9552));
-const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/myblog/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
+const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
 const allImgs = new Map();
 let perfObserver;
 if (true) {
@@ -13002,7 +13020,7 @@ module.exports = yaml;
 
 "use strict";
 
-var loader = __webpack_require__(6478);
+var loader = __webpack_require__(8167);
 var dumper = __webpack_require__(5530);
 function deprecated(name) {
     return function() {
@@ -13768,7 +13786,7 @@ module.exports = YAMLException;
 
 /***/ }),
 
-/***/ 6478:
+/***/ 8167:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";

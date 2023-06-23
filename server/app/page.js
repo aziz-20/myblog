@@ -300,7 +300,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 1201:
+/***/ 3573:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -361,7 +361,7 @@ __webpack_require__.r(__webpack_exports__);
         children: ['__PAGE__', {}, {
           page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9959)), "D:\\mext.js\\my-app\\app\\page.js"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5917))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -372,7 +372,7 @@ __webpack_require__.r(__webpack_exports__);
         {
           'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8432)), "D:\\mext.js\\my-app\\app\\layout.js"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5917))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -517,7 +517,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,859,356], () => (__webpack_exec__(1201)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,859,576], () => (__webpack_exec__(3573)));
 module.exports = __webpack_exports__;
 
 })();
