@@ -300,7 +300,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 3573:
+/***/ 1096:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -493,7 +493,7 @@ function Home() {
         className: "px-6 mx-auto",
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
-                className: "text-6xl font-bold text-center text-gray-800",
+                className: "text-6xl font-bold text-center text-gray-800 my-5",
                 children: [
                     "Hi ",
                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -517,7 +517,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,859,576], () => (__webpack_exec__(3573)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,859,7], () => (__webpack_exec__(1096)));
 module.exports = __webpack_exports__;
 
 })();

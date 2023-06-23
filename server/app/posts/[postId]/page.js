@@ -300,7 +300,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 7650:
+/***/ 4562:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -550,7 +550,7 @@ async function Post({ params: { postId } }) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,859,188,875,576], () => (__webpack_exec__(7650)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,859,188,875,7], () => (__webpack_exec__(4562)));
 module.exports = __webpack_exports__;
 
 })();
