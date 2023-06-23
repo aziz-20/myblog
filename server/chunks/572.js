@@ -2189,7 +2189,7 @@ function autoImplementMethods(handlers) {
 
 /***/ }),
 
-/***/ 2733:
+/***/ 8167:
 /***/ ((__unused_webpack_module, exports) => {
 
 /**
@@ -2298,7 +2298,7 @@ Object.defineProperty(exports, "proxyRequest", ({
 }));
 const _cookies = __webpack_require__(7783);
 const _nexturl = __webpack_require__(3369);
-const _cleanurl = __webpack_require__(2733);
+const _cleanurl = __webpack_require__(8167);
 function proxyRequest(request, { dynamic }, hooks) {
     function handleNextUrlBailout(prop) {
         switch(prop){

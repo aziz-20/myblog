@@ -495,10 +495,10 @@ function Home() {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
                 className: "text-6xl font-bold text-center text-gray-800",
                 children: [
-                    "hi, i'm ",
+                    "Hi ",
                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
                         className: "text-blue-500",
-                        children: "joseph"
+                        children: "Ali"
                     })
                 ]
             }),
@@ -517,7 +517,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,859,791], () => (__webpack_exec__(1096)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,859,7], () => (__webpack_exec__(1096)));
 module.exports = __webpack_exports__;
 
 })();
