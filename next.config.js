@@ -12,4 +12,4 @@ module.exports = {
   basePath: isProd ? '/myblog' : '',
   assetPrefix: isProd ? '/myblog/' : '',
 };
-module.exports = nextConfig
+// module.exports = nextConfig
